@@ -26,3 +26,4 @@ file_put_contents($phpunitFilepath, $phpunitXml);
 
 // Remove template setup files
 unlink(__DIR__ . '/setup.php');
+rename(__DIR__ . '/gitattributes.tmpl', __DIR__ . '/.gitattributes');
